@@ -56,7 +56,11 @@ a:hover {
 }
 
 .highlight {
-	background-color: #333;
+	background-color: #000;
+}
+
+.highlight pre {
+	box-shadow: 4px 4px 13px 0 #242424;
 }
 
 table th {
@@ -66,4 +70,8 @@ table th {
 table th, table td {
     padding: 10px 20px;
     border: 1px solid #666;
+}
+
+p > code {
+	background-color: #242323;
 }

@@ -1,6 +1,6 @@
 body {
     font-family: "ubuntu", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
@@ -166,6 +166,13 @@ ul {
     list-style: disc inside;
 }
 
+p > code {
+    border-radius: 3px;
+    padding: 0 2px;
+    margin: 0 1px;
+    background-color: #ececec;
+}
+
 .site-title a {
 	color: #333;
 	text-decoration: none !important;
@@ -183,7 +190,14 @@ ul {
     margin-bottom: 0;
     margin-top: 0;
     padding: 20px;
-    background-color: transparent !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 6px;
+    box-shadow: 4px 4px 13px 0 #a5a5a5;
+}
+
+.highlight:not(:first-of-type) {
+    margin-bottom: 1em;
 }
 
 .highlight {

@@ -73,5 +73,5 @@ table th, table td {
 }
 
 p > code {
-	background-color: #242323;
+  border-bottom: 1px dashed #fff;
 }

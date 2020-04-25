@@ -167,10 +167,10 @@ ul {
 }
 
 p > code {
-    border-radius: 3px;
+    border-bottom: 1px dashed #000;
+    font-style: italic;
     padding: 0 2px;
     margin: 0 1px;
-    background-color: #ececec;
 }
 
 .site-title a {
